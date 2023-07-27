@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c4c284;
+   
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 40px;
+    width: 30%;
+    /* height: 70vh; */
+    border: 2px solid black;
+    position: relative;
+}
+
+.header{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* height: 50%; */
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.header input{
+    border: 2px solid black;
+    width: 70%;
+    padding: 5px 0;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #c4c284;
+}
+.header input:focus{
+    outline: none;
+}
+.header button{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #c4c284;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.item{
+    border: 2px solid black;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: relative;
+}
+
+.text{
+    margin-left: 9px;
+    width: 60%;
+    
+}
+
+.buttons button{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #c4c284;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 9px;
+    
+}
+.search{
+    background-color: #c4c284;
+    border: 2px solid black;
+}
+.search:focus{
+    outline: none;
+}
